@@ -1,0 +1,30 @@
+Git COMMANDS
+------------------------------------------------------------------------------------------------------------------------
+git config --global user.name "username"
+git config --global user.email "email@example.com"
+git config --list
+git clone
+git --help
+git --version
+git add filename
+git add .
+git commit -m "any message"
+git commit -a -m "any message"
+git push
+git pull
+git log
+git status
+git init
+git remote add anyname url_of_empty_repository
+git push origin master
+git branch branchname
+git checkout branchname
+git merge branchname1 branchname2 (master stl)master
+git rebase branchname1 branchname2
+git branch -d branchname1 //delete the merged branch
+git push origin --delete branchname  // delete the mranch from remote
+git diff
+git revert
+git reset
+
+git config --global user.name "username"
